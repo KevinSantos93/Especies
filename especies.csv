@@ -1,34 +1,19 @@
-Orden;Familia;Morro (A);;;Tejar (A);;;Penagos (A);;;Morro (D);;;Tejar (D);;;Penagos (D);;
-;;P1;P2;P3;P1;P2;P3;P1;P2;P3;P1;P2;P3;P1;P2;P3;P1;P2;P3
-Tricoptera;Hydrobiosidae;3;0;0;4;5;7;14;1;3;15;1;3;2;2;19;20;17;5
-Tricoptera;Helicopsychidae;1;7;2;0;7;13;2;0;17;1;2;3;0;7;9;0;0;10
-Tricoptera;Glossosomatidae;0;0;0;0;0;0;27;21;0;0;0;0;0;0;0;5;11;0
-Tricoptera;Calamoceratidae;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0
-Tricoptera;Philopotamidae;0;0;0;2;0;0;0;1;0;0;0;0;0;0;0;0;0;0
-Tricoptera;Polycentropodidae;0;0;0;2;0;1;0;0;0;0;0;0;0;0;0;0;0;0
-Tricoptera;Xiphocentronidae;0;0;0;0;0;0;0;0;0;0;0;3;2;0;0;0;1;0
-Tricoptera;Hydropsychidae;0;0;0;2;0;0;1;2;1;0;0;0;0;0;0;0;4;0
-Tricoptera;Leptoceridae;3;1;11;0;2;9;8;2;1;1;0;80;1;3;13;10;2;1
-Tricoptera;Odontoceridae;0;2;1;6;3;0;91;0;0;0;25;29;17;0;0;22;40;12
-Tricoptera;Hydroptilidae;195;154;24;152;64;6;85;167;4;102;174;58;11;4;3;4;12;39
-Diptera;Simuliidae;16;4;11;2;154;72;11;30;28;104;2;18;76;84;69;72;29;141
-Diptera;Tipilidae;2;10;0;17;10;0;1;0;5;6;0;0;8;46;6;5;3;9
-Diptera;Tabanidae;3;0;0;0;0;0;0;0;0;2;0;2;0;0;0;0;0;0
-Diptera;Ceratopogonidae;3;1;8;8;17;4;2;0;0;6;2;5;27;62;21;1;2;8
-Diptera;Chironomidae;203;103;76;69;80;176;145;31;36;197;167;77;153;49;44;123;55;31
-Diptera;Empididae;0;0;0;1;0;0;0;0;0;0;1;0;0;0;0;0;0;1
-Diptera;tanyderidae;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0
-Diptera;Blephariceridae;0;0;1;0;0;1;0;0;0;1;0;0;0;0;0;0;0;16
-Ephemeroptera;Baetidae;117;72;121;41;36;146;106;82;38;86;37;73;95;31;136;199;77;99
-Ephemeroptera;Leptophlebiidae;1;0;0;0;0;0;0;2;0;1;0;0;0;0;0;0;17;0
-Ephemeroptera;Leptohyphidae;0;0;34;0;0;2;0;0;1;0;1;116;0;0;0;0;0;0
-Plecoptera;Perlidae;0;0;0;1;0;0;0;1;7;0;0;0;0;0;0;0;0;0
-Coleoptera;Elmidae;127;11;11;82;93;14;17;16;8;71;10;9;73;74;6;3;16;56
-Basommatophora;Planorbidae;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-Basommatophora;Physidae;4;9;0;20;7;5;0;0;0;8;3;0;5;1;0;0;0;0
-Unionoidea;Unionidae;0;4;0;2;1;1;0;0;1;0;0;0;1;0;0;1;3;1
-Tricladida;Planariidae;3;5;2;7;5;0;63;12;11;9;0;9;7;5;5;76;3;12
-Amphipoda;Hyalellidae;33;7;4;47;43;11;47;105;110;35;9;0;51;59;5;87;47;42
-"	Tubificida";Tubificidae;6;5;2;6;3;11;3;14;8;9;0;3;8;6;2;17;12;3
-Acarinae; Hydrachnidae ;61;9;1;17;0;17;2;1;4;41;14;15;0;12;5;0;0;0
-Collembola;;1;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0
+Cuenca;Epoca;Punto;Hydrobiosidae;Helicopsychidae;Glossosomatidae;Calamoceratidae;Philopotamidae;Polycentropodidae;Xiphocentronidae;Hydropsychidae;Leptoceridae;Odontoceridae;Hydroptilidae;Simuliidae;Tipilidae;Tabanidae;Ceratopogonidae;Chironomidae;Empididae;tanyderidae;Blephariceridae;Baetidae;Leptophlebiidae;Leptohyphidae;Perlidae;Elmidae;Planorbidae;Physidae;Unionidae;Planariidae;Hyalellidae;Tubificidae; Hydrachnidae ;ND
+Morro;Lluviosa;P1;3;1;0;0;0;0;0;0;3;0;195;16;2;3;3;203;0;0;0;117;1;0;0;127;1;4;0;3;33;6;61;1
+Morro;Lluviosa;P2;0;7;0;0;0;0;0;0;1;2;154;4;10;0;1;103;0;0;0;72;0;0;0;11;0;9;4;5;7;5;9;0
+Morro;Lluviosa;P3;0;2;0;0;0;0;0;0;11;1;24;11;0;0;8;76;0;0;1;121;0;34;0;11;0;0;0;2;4;2;1;0
+Tejar;Lluviosa;P1;4;0;0;0;2;2;0;2;0;6;152;2;17;0;8;69;1;0;0;41;0;0;1;82;0;20;2;7;47;6;17;0
+Tejar;Lluviosa;P2;5;7;0;0;0;0;0;0;2;3;64;154;10;0;17;80;0;0;0;36;0;0;0;93;0;7;1;5;43;3;0;0
+Tejar;Lluviosa;P3;7;13;0;0;0;1;0;0;9;0;6;72;0;0;4;176;0;0;1;146;0;2;0;14;0;5;1;0;11;11;17;1
+Penagos;Lluviosa;P1;14;2;27;0;0;0;0;1;8;91;85;11;1;0;2;145;0;0;0;106;0;0;0;17;0;0;0;63;47;3;2;0
+Penagos;Lluviosa;P2;1;0;21;0;1;0;0;2;2;0;167;30;0;0;0;31;0;0;0;82;2;0;1;16;0;0;0;12;105;14;1;0
+Penagos;Lluviosa;P3;3;17;0;0;0;0;0;1;1;0;4;28;5;0;0;36;0;0;0;38;0;1;7;8;0;0;1;11;110;8;4;0
+Morro;Seca;P1;15;1;0;0;0;0;0;0;1;0;102;104;6;2;6;197;0;0;1;86;1;0;0;71;0;8;0;9;35;9;41;0
+Morro;Seca;P2;1;2;0;0;0;0;0;0;0;25;174;2;0;0;2;167;1;0;0;37;0;1;0;10;0;3;0;0;9;0;14;0
+Morro;Seca;P3;3;3;0;0;0;0;3;0;80;29;58;18;0;2;5;77;0;0;0;73;0;116;0;9;0;0;0;9;0;3;15;0
+Tejar;Seca;P1;2;0;0;0;0;0;2;0;1;17;11;76;8;0;27;153;0;0;0;95;0;0;0;73;0;5;1;7;51;8;0;0
+Tejar;Seca;P2;2;7;0;0;0;0;0;0;3;0;4;84;46;0;62;49;0;3;0;31;0;0;0;74;0;1;0;5;59;6;12;0
+Tejar;Seca;P3;19;9;0;0;0;0;0;0;13;0;3;69;6;0;21;44;0;0;0;136;0;0;0;6;0;0;0;5;5;2;5;0
+Penagos;Seca;P1;20;0;5;0;0;0;0;0;10;22;4;72;5;0;1;123;0;0;0;199;0;0;0;3;0;0;1;76;87;17;0;0
+Penagos;Seca;P2;17;0;11;3;0;0;1;4;2;40;12;29;3;0;2;55;0;0;0;77;17;0;0;16;0;0;3;3;47;12;0;0
+Penagos;Seca;P3;5;10;0;0;0;0;0;0;1;12;39;141;9;0;8;31;1;0;16;99;0;0;0;56;0;0;1;12;42;3;0;0
