@@ -1,0 +1,19 @@
+cuenca;punto;Periodo;temp(°C);Odisuelto (mg/L);condElec(µS/cm);pH;dureza(mg/LCaCO3);caudal(m3.s-1)
+Penagos;Punto uno;Lluviosa;9.4;67;16.9;6.7;1.2;0.4
+Penagos;Punto uno;Seca;9.5;89;28.9;7.4;2.5;0.1
+Penagos;Punto dos ;Lluviosa;10.4;68;17.6;7.4;1.5;0.5
+Penagos;Punto dos ;Seca;11.8;92;35;6.9;4.4;0.1
+Penagos;Punto tres;Lluviosa;10.9;79;38.1;7.6;1.8;1
+Penagos;Punto tres;Seca;10.5;93;34.4;7.6;3;0.2
+Morro;Punto uno;Lluviosa;9.1;87;23.7;7.9;1.7;0.6
+Morro;Punto uno;Seca;10.7;100;22.9;7.5;1.2;0.1
+Morro;Punto dos ;Lluviosa;9.5;86;24.2;8;1.2;1.7
+Morro;Punto dos ;Seca;11.2;87;45.3;7;1;0.2
+Morro;Punto tres;Lluviosa;10.9;90;25.6;7.5;2.5;4.4
+Morro;Punto tres;Seca;12.4;79;45.2;7.3;1;0.8
+Tejar ;Punto uno;Lluviosa;9;61;27.2;6.9;1.5;0.3
+Tejar ;Punto uno;Seca;7.4;86;29.5;6.6;1.4;0
+Tejar ;Punto dos ;Lluviosa;10.6;78;34.1;7.2;1.03;0.4
+Tejar ;Punto dos ;Seca;9;92;38.6;7.3;1.3;0.2
+Tejar ;Punto tres;Lluviosa;11.6;71;25.5;6.8;2.1;2.2
+Tejar ;Punto tres;Seca;12;95;27.1;7.1;1.7;0.7

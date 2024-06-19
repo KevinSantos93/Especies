@@ -1,0 +1,7 @@
+library(vegan)
+library(dplyr)
+library(nortest)
+library(ggplot2)
+library(tidyr)
+library(factoextra)
+library(patchwork)
