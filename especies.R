@@ -8,6 +8,7 @@ library(patchwork)
 library(BiodiversityR)
 library(GGally)
 library(CCA)
+library(fossil)
 
 especies <- read.csv('especies.csv', sep = ';')
 
@@ -18,8 +19,29 @@ par(mfrow=c(1,1),cex=1.2) # particiona ventana grafica en 2x2
 specnumber(especies[,4:35])
 
 #Abundancia de las familias
-abundancia <- boxplot(especies[,4:35], ylab = "Abundancia", "Especies")
+
+especies %>%
+  pivot_longer(cols = Hydrobiosidae:ND,
+               names_to = "Especie",
+               values_to = "Abundancia") %>%
+  ggplot(aes(x =Especie, y = Abundancia)) +
+    geom_boxplot() +
+    labs(x = "Especie", y = "Abundancia") +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+#Calcula los estimadores Chao, Chao corregido, primer y segundo orden de jacknife
+#y bootstrap
 estimateR(especies[,4:35])
+
+###Calculamos chao2, con el paquete fossil
+
+##Obtenemos las incidencias, para calclular chao2
+incidencias <- especies %>%
+  mutate_at(vars(4:35), ~ ifelse(. > 0, 1, 0))
+
+##Calculo de chao2
+estimateR(incidencias[4], method = "chao2")
+
 
 #Curvas de acumulación
 #Existen diferentes metodos para estimar la riqueza.
@@ -44,8 +66,13 @@ plot(pool)
 correlacion <- read.csv('correlacion.csv', sep = ';')
 summary(correlacion)
 
+##Correlación entre especies en la epoca lluviosa
 ggpairs(correlacion[,3:11], title = 'Época lluviosa')
+
+##Correlación entre muestras de la época seca
 ggpairs(correlacion[,12:20], title = 'Época Seca')
+
+##Correlación entre las diferentes épocas
 ggduo(correlacion,columnsX = 3:11,columnsY = 12:20,
       types = list(continuous = "smooth_lm"),
       title = "Correlación entre observaciones en época seca y lluviosa",
