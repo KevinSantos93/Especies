@@ -1,4 +1,4 @@
-cuenca;punto;Periodo;temp(°C);Odisuelto (mg/L);condElec(µS/cm);pH;dureza(mg/LCaCO3);caudal(m3.s-1)
+cuenca;punto;Periodo;temp(C);Odisuelto (mg/L);condElec(µS/cm);pH;dureza(mg/LCaCO3);caudal(m3.s-1)
 Penagos;Punto uno;Lluviosa;9.4;67;16.9;6.7;1.2;0.4
 Penagos;Punto uno;Seca;9.5;89;28.9;7.4;2.5;0.1
 Penagos;Punto dos ;Lluviosa;10.4;68;17.6;7.4;1.5;0.5
